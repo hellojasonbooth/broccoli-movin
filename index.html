@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="generator" content="SuperHi">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Broccoli Movin</title>
+		<link rel="stylesheet" href="css_base.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		
+		<div class="container">
+			<div id="bm"></div>
+		</div>
+		
+		<div class="controls">
+		  
+		  <img src="assets/forward.svg" onclick="forward()">
+		  
+		  <div class="center">
+		    <img src="assets/play.svg" onclick="play()">
+		  	<img src="assets/pause.svg" onclick="pause()">
+		  	<img src="assets/rewind.svg" onclick="faster()">
+		  	<img src="assets/fast-forward.svg" onclick="slower()">
+		    
+		    <div id="speed">1.0</div>
+		  </div>
+		  
+		  <img src="assets/reverse.svg" onclick="reverse()">
+		  
+		</div>
+		
+		
+		
+		<script src="js/lottie.js"></script>
+		<script src="js/bodymovin.js"></script>
+		
+		
+	</body>
+</html>
