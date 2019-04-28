@@ -4,7 +4,7 @@ const animation = {
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'js/data.json'
+  path: 'https://github.com/hellojasonbooth/broccoli-movin/blob/master/js/data.json'
 }
 
 let speed = 1
